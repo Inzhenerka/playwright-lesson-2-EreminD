@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Task_1. Click test ",
+      "setup": "chmod +x check_steps/3_run_test_if_file_exists.sh",
+      "run": "check_steps/3_run_test_if_file_exists.sh",
+      "input": "\"lesson2_click.spec.js\" \"click test\"",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Task_2. Checkbox and radio",
+      "setup": "chmod +x check_steps/3_run_test_if_file_exists.sh",
+      "run": "check_steps/3_run_test_if_file_exists.sh",
+      "input": "\"lesson2_click.spec.js\" \"checkbox and radio\"",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Task_3. Fill test",
+      "setup": "chmod +x check_steps/3_run_test_if_file_exists.sh",
+      "run": "check_steps/3_run_test_if_file_exists.sh",
+      "input": "\"lesson2_fill.spec.js\" \"auth test\"",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Task_4. Press",
+      "setup": "chmod +x check_steps/3_run_test_if_file_exists.sh",
+      "run": "check_steps/3_run_test_if_file_exists.sh",
+      "input": "1 passed",
+      "output": "\"lesson2_press.spec.js\" \"copy-paste\"",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Task_5. Hover",
+      "setup": "chmod +x check_steps/3_run_test_if_file_exists.sh",
+      "run": "check_steps/3_run_test_if_file_exists.sh",
+      "input": "\"lesson2_hover.spec.js\" \"get image caption\"",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Task_6. Checkboxes",
+      "setup": "chmod +x check_steps/3_run_test_if_file_exists.sh",
+      "run": "check_steps/3_run_test_if_file_exists.sh",
+      "input": "\"lesson2_checkbox.spec.js\" \"checkboxes\"",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    },
+    {
+      "name": "Task_7. Screenshot",
+      "setup": "chmod +x check_steps/3_run_test_if_file_exists.sh",
+      "run": "check_steps/3_run_test_if_file_exists.sh",
+      "input": "\"lesson2_screenshot.spec.js\" \"screenshot\"",
+      "output": "1 passed",
+      "comparison": "included",
+      "timeout": 20,
+      "points": 1
+    }
+  ]
+}
