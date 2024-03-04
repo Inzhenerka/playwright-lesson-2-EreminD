@@ -7,5 +7,5 @@ if [ -f $FILE ]; then
    npx playwright test -g "$TEST"
 else
    echo "File $FILE does not exist."
-   exit 0
+   exit 1
 fi
